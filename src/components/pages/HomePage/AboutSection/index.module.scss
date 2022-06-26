@@ -1,2 +1,11 @@
 .about-section {
+  @apply relative flex h-screen flex-col items-center justify-center bg-[#F9FAFB] px-4 text-gray-700;
+  .title {
+    @apply z-10 mb-[20px] text-center text-[32px] font-bold;
+    @apply lg:mb-[93px] lg:text-[64px];
+  }
+  .desc {
+    @apply z-10 text-center text-[12px] font-bold;
+    @apply lg:text-[24px];
+  }
 }
